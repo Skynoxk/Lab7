@@ -11,11 +11,12 @@ public class Book implements Printable{
 		this.title = title;
 		this.pageNumber = pageNumber;
 	}
+	@Override
 	public void printDetail() {
 		// TODO Auto-generated method stub
-		System.out.println("Print detail of Books");
-		System.out.println(author);
-		System.out.println(title);
-		System.out.println(pageNumber);
+		System.out.println("==========Book============");
+		System.out.println("Author : " + author);
+		System.out.println("Title : " + title);
+		System.out.println("Page number : " + pageNumber);
 	}
 }
